@@ -34,8 +34,10 @@
   background-color: var(--secondary-normal);
 }
 .page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-
   text-transform: uppercase;
   letter-spacing: 0.75rem;
   margin: 4rem 0;
