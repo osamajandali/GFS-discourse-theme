@@ -144,14 +144,6 @@ pre > code {
   transition: all 0.25s;
 }
 
-// Settings: Hide user card bg
-@if $hide_user_card_background == "true" {
-  .user-card .card-content,
-  .group-card .card-content {
-    background: #fff;
-  }
-}
-
 // Header
 .d-header {
   padding: 15px 0;

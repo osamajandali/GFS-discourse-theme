@@ -49,4 +49,100 @@
     0px 20px 24px rgba(20, 37, 63, 0.06);
   --shadow-5: 0px 0px 1px rgba(12, 26, 75, 0.1),
     0px 30px 40px rgba(20, 37, 63, 0.08);
+
+  --scheme-type: light;
+  --primary: #3c3c3c;
+  --secondary: #fbfcf6;
+  --tertiary: #006d69;
+  --quaternary: #006d69;
+  --header_background: #fbfcf6;
+  --header_primary: #3c3c3c;
+  --highlight: #f7faee;
+  --danger: #dd261c;
+  --success: #d7e6a9;
+  --love: #ee938d;
+  --always-black-rgb: 0, 0, 0;
+  --primary-rgb: 60, 60, 60;
+  --primary-low-rgb: 235.5, 235.5, 235.5;
+  --secondary-rgb: 251, 252, 246;
+  --header_background-rgb: 251, 252, 246;
+  --tertiary-rgb: 0, 109, 105;
+
+  --primary-very-low: #f2f8f7;
+  --primary-low: #e5f0f0;
+  --primary-low-mid: #bfdbd9;
+  --primary-medium: #80b6b4;
+  --primary-high: #00524f;
+  --primary-very-high: #003734;
+
+  --header_primary-low: #eff0ea;
+  --header_primary-low-mid: #cdcec9;
+  --header_primary-medium: #aeafab;
+  --header_primary-high: #929390;
+  --header_primary-very-high: #626260;
+
+  --secondary-low: #ebf2d4;
+  --secondary-medium: #d7e6a9;
+  --secondary-high: #83993e;
+  --secondary-very-high: #576629;
+
+  --tertiary-very-low: #f2f8f7;
+  --tertiary-low: #e5f0f0;
+  --tertiary-medium: #80b6b4;
+  --tertiary-high: #00524f;
+  --tertiary-hover: #00524f;
+
+  --quaternary-low: #80b6b4;
+
+  --highlight-low: #ffffca;
+  --highlight-medium: #ffffa6;
+  --highlight-high: #a6a600;
+  --danger-low: #fbdedc;
+  --danger-low-mid: rgba(240, 144, 139, 0.7);
+  --danger-medium: #ea645d;
+  --danger-hover: #b11e16;
+  --success-low: #f7faee;
+  --success-medium: #ebf3d4;
+  --success-hover: #bad46b;
+  --love-low: #fcefee;
+  --wiki: green;
+  --blend-primary-secondary-5: #f5f6f0;
+  --primary-med-or-secondary-med: #9e9e9e;
+  --primary-med-or-secondary-high: #9e9e9e;
+  --primary-high-or-secondary-low: #777;
+  --primary-low-mid-or-secondary-high: #c5c5c5;
+  --primary-low-mid-or-secondary-low: #c5c5c5;
+  --primary-or-primary-low-mid: #3c3c3c;
+  --highlight-low-or-medium: #ffffca;
+  --tertiary-or-tertiary-low: #006d69;
+  --tertiary-low-or-tertiary-high: #c3fffd;
+  --tertiary-med-or-tertiary: #37fff8;
+  --secondary-or-primary: #fbfcf6;
+  --tertiary-or-white: #006d69;
+  --facebook-or-white: #1877f2;
+  --twitter-or-white: #1da1f2;
+  --hljs-comment: #998;
+  --hljs-number: #099;
+  --hljs-string: #d14;
+  --hljs-literal: #458;
+  --hljs-tag: #000080;
+  --hljs-attribute: #008080;
+  --hljs-symbol: #990073;
+  --hljs-bg: #f8f8f8;
+  --google: #fff;
+  --google-hover: #f2f2f2;
+  --instagram: #e1306c;
+  --instagram-hover: #ac194b;
+  --facebook: #1877f2;
+  --facebook-hover: #0a54b3;
+  --cas: #70ba61;
+  --twitter: #1da1f2;
+  --twitter-hover: #0c85d0;
+  --github: #100e0f;
+  --github-hover: #463e42;
+  --discord: #7289da;
+  --discord-hover: #4a67cf;
+  --gold: #e7c300;
+  --silver: silver;
+  --bronze: #cd7f32;
 }
