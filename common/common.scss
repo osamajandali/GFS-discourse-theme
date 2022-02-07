@@ -5,3 +5,75 @@
 * {
   font-family: "Nunito Sans", sans-serif;
 }
+.d-header {
+  box-shadow: none;
+  border-bottom: 1px solid var(--secondary-medium);
+  height: 5em;
+}
+.btn,
+.nav-pills > li > a,
+.list-controls .combo-box .combo-box-header,
+.alert.alert-info {
+  border-radius: 8px;
+}
+.topic-list-item.visited .topic-list-data a.discourse-tag {
+  background: var(--secondary-low);
+  padding: 0.2em 0.5em;
+  border-radius: 8px;
+  color: var(--secondary-high);
+}
+.timeline-container .topic-timeline {
+  .timeline-handle {
+    background-color: var(--tertiary);
+  }
+  .timeline-scrollarea {
+    border-color: var(--primary-low-mid);
+  }
+}
+.d-header-icons .unread-notifications {
+  background-color: var(--secondary-normal);
+}
+
+.page-title {
+  position: relative;
+
+  text-transform: uppercase;
+  letter-spacing: 0.75rem;
+  margin: 4rem 0;
+  .pattern {
+    position: absolute;
+    height: 105px;
+    z-index: -1;
+    svg {
+      height: 100%;
+      width: auto;
+    }
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+  }
+  // Tablet
+  @media (min-width: 640px) and (max-width: 1280px) {
+    margin: 6rem 0;
+    .pattern {
+      height: 160px;
+    }
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
+
+  // Desktop and Larger
+  @media (min-width: 1280px) {
+    margin: 8rem 0;
+    .pattern {
+      height: 230px;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
