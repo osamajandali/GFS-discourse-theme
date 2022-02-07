@@ -1,14 +1,5 @@
 // Google Fonts
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
-.pattern {
-  position: absolute;
-  height: 105px;
-  z-index: -1;
-  svg {
-    height: 100%;
-    width: auto;
-  }
-}
 
 // Text styling
 * {
@@ -41,4 +32,47 @@
 }
 .d-header-icons .unread-notifications {
   background-color: var(--secondary-normal);
+}
+.page-title {
+  position: relative;
+
+  text-transform: uppercase;
+  letter-spacing: 0.75rem;
+  margin: 4rem 0;
+  .pattern {
+    position: absolute;
+    height: 105px;
+    z-index: -1;
+    svg {
+      height: 100%;
+      width: auto;
+    }
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+  }
+  // Tablet
+  @media (min-width: 640px) and (max-width: 1280px) {
+    margin: 6rem 0;
+    .pattern {
+      height: 160px;
+    }
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
+
+  // Desktop and Larger
+  @media (min-width: 1280px) {
+    margin: 8rem 0;
+    .pattern {
+      height: 230px;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
 }
